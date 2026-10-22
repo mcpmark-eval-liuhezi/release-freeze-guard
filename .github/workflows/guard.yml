@@ -1,0 +1,7 @@
+name: Release Freeze Guard
+on: workflow_dispatch
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 300
